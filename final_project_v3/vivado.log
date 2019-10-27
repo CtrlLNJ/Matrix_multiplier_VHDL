@@ -1,0 +1,630 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Nov 27 17:15:29 2018
+# Process ID: 2240
+# Current directory: C:/tmp/final_project_v3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2440 C:\tmp\final_project_v3\final_project_v3.xpr
+# Log file: C:/tmp/final_project_v3/vivado.log
+# Journal file: C:/tmp/final_project_v3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/tmp/final_project_v3/final_project_v3.xpr
+INFO: [Project 1-313] Project file moved from 'C:/temp/final_project_v3' since last save.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/VHDL/VivadoProjects/Final_project_v2/Final_project_v2.srcs/sources_1/imports/Downloads/DigEng.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 799.824 ; gain = 83.430
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_level_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_level_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/imports/Desktop/DigEng.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/ACC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ACC
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/imports/Downloads/Param_Counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Param_Counter
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/imports/Desktop/Control_logic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Control_logic
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/imports/new/asynchronous_read_ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity asynchronous_read_ROM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/asynchronous_read_ROMB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity asynchronous_read_ROMB
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/imports/Lab3b-VHDL/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/MACC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MACC
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/imports/Lab3b-VHDL/Debouncer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Debouncer
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/Top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a209e0c9b0d84810be327f2fedfadeff --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_level_tb_behav xil_defaultlib.top_level_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.digeng
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Debouncer [debouncer_default]
+Compiling architecture behavioral of entity xil_defaultlib.asynchronous_read_ROM [asynchronous_read_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.asynchronous_read_ROMB [asynchronous_read_romb_default]
+Compiling architecture behavioral of entity xil_defaultlib.RAM [ram_default]
+Compiling architecture behavioral of entity xil_defaultlib.ACC [acc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MACC [macc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Datapath [datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.Control_logic [control_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top_level [top_level_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_tb
+Built simulation snapshot top_level_tb_behav
+
+****** Webtalk v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim/xsim.dir/top_level_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Nov 27 17:16:29 2018...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_level_tb_behav -key {Behavioral:sim_1:Functional:top_level_tb} -tclbatch {top_level_tb.tcl} -view {E:/VHDL/VivadoProjects/DDVHD_Final_project/top_level_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+open_wave_config E:/VHDL/VivadoProjects/DDVHD_Final_project/top_level_tb_behav.wcfg
+source top_level_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Note: TEST SUCCEED: The expected output value and the real output value are both 768
+Time: 340 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -720
+Time: 510 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 48
+Time: 680 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -80
+Time: 850 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_level_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 841.508 ; gain = 20.598
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+Note: TEST SUCCEED: The expected output value and the real output value are both 768
+Time: 340 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -720
+Time: 510 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 48
+Time: 680 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -80
+Time: 850 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -16
+Time: 1020 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -720
+Time: 1190 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 675
+Time: 1360 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -45
+Time: 1530 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 75
+Time: 1700 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 15
+Time: 1870 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -240
+Time: 2040 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 225
+Time: 2210 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -16
+Time: 2380 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 98
+Time: 2550 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 116
+Time: 2720 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 112
+Time: 2890 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -105
+Time: 3060 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 8
+Time: 3230 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 32
+Time: 3400 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 45
+Time: 3570 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 768
+Time: 3780 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -720
+Time: 3950 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 48
+Time: 4120 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -80
+Time: 4290 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -16
+Time: 4460 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -720
+Time: 4630 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 675
+Time: 4800 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -45
+Time: 4970 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 75
+Time: 5140 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 15
+Time: 5310 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -240
+Time: 5480 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 225
+Time: 5650 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -16
+Time: 5820 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 98
+Time: 5990 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 116
+Time: 6160 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 112
+Time: 6330 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -105
+Time: 6500 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 8
+Time: 6670 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 32
+Time: 6840 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 45
+Time: 7010 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_level_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_level_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/ACC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ACC
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/imports/new/asynchronous_read_ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity asynchronous_read_ROM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/asynchronous_read_ROMB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity asynchronous_read_ROMB
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/imports/Lab3b-VHDL/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/MACC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MACC
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/Top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level_tb
+ERROR: [VRFC 10-1471] type error near output ; current type signed; expected type std_logic_vector [C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd:67]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd:10]
+INFO: [VRFC 10-240] VHDL file C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_level_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_level_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/ACC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ACC
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/imports/new/asynchronous_read_ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity asynchronous_read_ROM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/asynchronous_read_ROMB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity asynchronous_read_ROMB
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/imports/Lab3b-VHDL/RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/MACC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MACC
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/Top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a209e0c9b0d84810be327f2fedfadeff --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_level_tb_behav xil_defaultlib.top_level_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.digeng
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Debouncer [debouncer_default]
+Compiling architecture behavioral of entity xil_defaultlib.asynchronous_read_ROM [asynchronous_read_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.asynchronous_read_ROMB [asynchronous_read_romb_default]
+Compiling architecture behavioral of entity xil_defaultlib.RAM [ram_default]
+Compiling architecture behavioral of entity xil_defaultlib.ACC [acc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MACC [macc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Datapath [datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.Control_logic [control_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top_level [top_level_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_tb
+Built simulation snapshot top_level_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Note: TEST SUCCEED: The expected output value and the real output value are both 768
+Time: 340 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -720
+Time: 510 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 48
+Time: 680 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -80
+Time: 850 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+Note: TEST SUCCEED: The expected output value and the real output value are both 768
+Time: 340 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -720
+Time: 510 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 48
+Time: 680 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -80
+Time: 850 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -16
+Time: 1020 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -720
+Time: 1190 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 675
+Time: 1360 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -45
+Time: 1530 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 75
+Time: 1700 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 15
+Time: 1870 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -240
+Time: 2040 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 225
+Time: 2210 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -16
+Time: 2380 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 98
+Time: 2550 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 116
+Time: 2720 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 112
+Time: 2890 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -105
+Time: 3060 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 8
+Time: 3230 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 32
+Time: 3400 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 45
+Time: 3570 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 768
+Time: 3780 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -720
+Time: 3950 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 48
+Time: 4120 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -80
+Time: 4290 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -16
+Time: 4460 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -720
+Time: 4630 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 675
+Time: 4800 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -45
+Time: 4970 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 75
+Time: 5140 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 15
+Time: 5310 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -240
+Time: 5480 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 225
+Time: 5650 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -16
+Time: 5820 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 98
+Time: 5990 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 116
+Time: 6160 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 112
+Time: 6330 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -105
+Time: 6500 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 8
+Time: 6670 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 32
+Time: 6840 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 45
+Time: 7010 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_level_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_level_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/MACC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MACC
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/Top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a209e0c9b0d84810be327f2fedfadeff --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_level_tb_behav xil_defaultlib.top_level_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.digeng
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Debouncer [debouncer_default]
+Compiling architecture behavioral of entity xil_defaultlib.asynchronous_read_ROM [asynchronous_read_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.asynchronous_read_ROMB [asynchronous_read_romb_default]
+Compiling architecture behavioral of entity xil_defaultlib.RAM [ram_default]
+Compiling architecture behavioral of entity xil_defaultlib.ACC [acc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MACC [macc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Datapath [datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.Control_logic [control_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top_level [top_level_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_tb
+Built simulation snapshot top_level_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Note: TEST SUCCEED: The expected output value and the real output value are both 768
+Time: 290 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -720
+Time: 410 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 48
+Time: 530 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -80
+Time: 650 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -16
+Time: 770 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -720
+Time: 890 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 887.785 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_level_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_level_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Datapath
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/Top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a209e0c9b0d84810be327f2fedfadeff --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_level_tb_behav xil_defaultlib.top_level_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.digeng
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Debouncer [debouncer_default]
+Compiling architecture behavioral of entity xil_defaultlib.asynchronous_read_ROM [asynchronous_read_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.asynchronous_read_ROMB [asynchronous_read_romb_default]
+Compiling architecture behavioral of entity xil_defaultlib.RAM [ram_default]
+Compiling architecture behavioral of entity xil_defaultlib.ACC [acc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MACC [macc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Datapath [datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.Control_logic [control_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top_level [top_level_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_tb
+Built simulation snapshot top_level_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Error: TEST FAILED: The expected output value should be 768. The real output value is 0
+Time: 210 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be -720. The real output value is 0
+Time: 250 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be 48. The real output value is 0
+Time: 290 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be -80. The real output value is 0
+Time: 330 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be -16. The real output value is 0
+Time: 370 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be -720. The real output value is 0
+Time: 410 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be 675. The real output value is 0
+Time: 450 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be -45. The real output value is 0
+Time: 490 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be 75. The real output value is 0
+Time: 530 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be 15. The real output value is 0
+Time: 570 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be -240. The real output value is 0
+Time: 610 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be 225. The real output value is 0
+Time: 650 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be -16. The real output value is 0
+Time: 690 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be 98. The real output value is 0
+Time: 730 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be 116. The real output value is 0
+Time: 770 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be 112. The real output value is 0
+Time: 810 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be -105. The real output value is 0
+Time: 850 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be 8. The real output value is 0
+Time: 890 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be 32. The real output value is 0
+Time: 930 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Error: TEST FAILED: The expected output value should be 45. The real output value is 0
+Time: 970 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 887.785 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_level_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_level_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sources_1/new/Top_level.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top_level
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_level_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/tmp/final_project_v3/final_project_v3.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a209e0c9b0d84810be327f2fedfadeff --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_level_tb_behav xil_defaultlib.top_level_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.digeng
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Debouncer [debouncer_default]
+Compiling architecture behavioral of entity xil_defaultlib.asynchronous_read_ROM [asynchronous_read_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.asynchronous_read_ROMB [asynchronous_read_romb_default]
+Compiling architecture behavioral of entity xil_defaultlib.RAM [ram_default]
+Compiling architecture behavioral of entity xil_defaultlib.ACC [acc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MACC [macc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Datapath [datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.Control_logic [control_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top_level [top_level_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_tb
+Built simulation snapshot top_level_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Note: TEST SUCCEED: The expected output value and the real output value are both 768
+Time: 240 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -720
+Time: 310 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 48
+Time: 380 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -80
+Time: 450 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -16
+Time: 520 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -720
+Time: 590 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 675
+Time: 660 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -45
+Time: 730 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 75
+Time: 800 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both 15
+Time: 870 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+Note: TEST SUCCEED: The expected output value and the real output value are both -240
+Time: 940 ns  Iteration: 0  Process: /top_level_tb/TEST  File: C:/tmp/final_project_v3/final_project_v3.srcs/sim_1/new/top_level_tb.vhd
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 887.785 ; gain = 0.000

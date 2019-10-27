@@ -1,0 +1,30 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a209e0c9b0d84810be327f2fedfadeff --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_level_tb_behav xil_defaultlib.top_level_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.digeng
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.Debouncer [debouncer_default]
+Compiling architecture behavioral of entity xil_defaultlib.asynchronous_read_ROM [asynchronous_read_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.asynchronous_read_ROMB [asynchronous_read_romb_default]
+Compiling architecture behavioral of entity xil_defaultlib.RAM [ram_default]
+Compiling architecture behavioral of entity xil_defaultlib.ACC [acc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MACC [macc_default]
+Compiling architecture behavioral of entity xil_defaultlib.Datapath [datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.Param_Counter [\Param_Counter(limit=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.Control_logic [control_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top_level [top_level_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_tb
+Built simulation snapshot top_level_tb_behav

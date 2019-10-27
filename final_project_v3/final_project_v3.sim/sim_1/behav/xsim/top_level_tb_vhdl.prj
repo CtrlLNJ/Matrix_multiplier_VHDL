@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../final_project_v3.srcs/sources_1/imports/Desktop/DigEng.vhd" \
+"../../../../final_project_v3.srcs/sources_1/new/ACC.vhd" \
+"../../../../final_project_v3.srcs/sources_1/imports/Downloads/Param_Counter.vhd" \
+"../../../../final_project_v3.srcs/sources_1/imports/Desktop/Control_logic.vhd" \
+"../../../../final_project_v3.srcs/sources_1/imports/new/asynchronous_read_ROM.vhd" \
+"../../../../final_project_v3.srcs/sources_1/new/asynchronous_read_ROMB.vhd" \
+"../../../../final_project_v3.srcs/sources_1/imports/Lab3b-VHDL/RAM.vhd" \
+"../../../../final_project_v3.srcs/sources_1/new/MACC.vhd" \
+"../../../../final_project_v3.srcs/sources_1/new/Datapath.vhd" \
+"../../../../final_project_v3.srcs/sources_1/imports/Lab3b-VHDL/Debouncer.vhd" \
+"../../../../final_project_v3.srcs/sources_1/new/Top_level.vhd" \
+"../../../../final_project_v3.srcs/sim_1/new/top_level_tb.vhd" \
+
+# Do not sort compile order
+nosort
